@@ -12,7 +12,7 @@ You choose the PORT number, Example PORT number: `2222`.
 
 Open a new terminal to make a client, then `make upush_client` from the root directory, make the client by, 
 `./upush_client <NICK> <ADDRESS> <PORT> <TIMEOUT> <LOSS_PROBABILITY>`, 
-Notice: that you need to connect with the same PORT as the server, and Address is the IP-address who is available, example IP: `127.0.0.1`
+Notice: that you need to connect with the same PORT as the server, and Address is the IP-address who is available, example IP: `127.0.0.1`.  
 Make several clients (from new terminal windows).
 
 ### Communication
