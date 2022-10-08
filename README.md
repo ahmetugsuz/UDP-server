@@ -6,7 +6,9 @@ This is a UDP Server-Client program on C
 
 ### Running/Usage
 
-From the root directory: `UDP-server` run `make upush_client` and then `./upush_client <PORT> <LOSS_PROBABILITY>`. You choose the PORT number, Example PORT number: `2222`.
+From the root directory: `UDP-server`   
+run `make upush_server` and then `./upush_client <PORT> <LOSS_PROBABILITY>`.   
+You choose the PORT number, Example PORT number: `2222`.  
 
 Open a new terminal to make a client, then `make upush_client` from the root directory, make the client by, 
 `./upush_client <NICK> <ADDRESS> <PORT> <TIMEOUT> <LOSS_PROBABILITY>`, 
