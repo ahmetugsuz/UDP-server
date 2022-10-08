@@ -29,23 +29,23 @@ Client 2: `./upush_client frida 127.0.0.1 2222 1000 0`.
 #### From client 1 to client 2
 -- @frida hey.
 
-@frida sup?
+-- @frida sup?
 
 #### client 2 responding
 `ola: hey`
 
 `ola sup?`
 
-@ola Heeey
+-- @ola Heeey
 
-@ola nothing, U?
+-- @ola nothing, U?
 
 #### client 1 received answer
 `frida: Heeey`
 
 `frida: nothing, U?`
 
-@frida miss u 
+-- @frida miss u 
 
 
 
