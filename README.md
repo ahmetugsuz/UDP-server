@@ -27,7 +27,7 @@ Client 1: `./upush_client ola 127.0.0.1 2222 100`
 Client 2: `./upush_client frida 127.0.0.1 2222 1000 0`.
 
 #### From client 1 to client 2
-@frida hey.
+-- @frida hey.
 
 @frida sup?
 
