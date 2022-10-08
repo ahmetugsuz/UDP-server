@@ -1,0 +1,17 @@
+
+
+
+
+
+
+
+
+
+
+Hjerteslag: Her har jeg valgt å sette klienter over til en "liste" med innaktive brukere, hvis ikke de har sendt en registreringsmelding eller oppdatert seg i server innen 30 sekunder.
+Hvert 10. sekund vil en aktiv bruker, som ikke har exita/quita fra å være aktiv, vil sende en registreringsmelding til server, hvis den allerede er registrert, oppdateres informasjon.
+Her har jeg selv valgt å ikke printe ut ACK som sendes tilbake hvert 10 sekund, hvor bruker "Oppdaterer" sin informasjon. Dette kom av diskutering med lærerne samt mitt eget valg, 
+av hvordan brukeropplevelsen holder seg best. Med ACK tilbake hvert 10 sekund etter hver oppdatering, kunne plage tekstmeldingen eller bli litt for mye, så jeg har valgt å ikke skrive den
+ned i klient som print. Men kan likegjerne se at informasjon oppdateres i server, da den printer ut oppdatert informasjon om hvert klient som oppdaterer seg.
+En tin å verdt å legge merke til er hvis du avslutter klient, også registrerer den på nytt, vil den oppdatere den informasjonen som serveren hadde fra før,
+siden den clienten allerede befinner seg i server sin liste dermed ikke returnere ACK heller når den opppdateres.
