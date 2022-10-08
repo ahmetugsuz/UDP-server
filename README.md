@@ -1,8 +1,8 @@
-# UPD-server
-This is a UPD Server-Client program on C
+# UDP-server
+This is a UDP Server-Client program on C
 
 ## Deployment 
-`git clone https://github.com/ahmetugsuz/UPD-server.git`
+`git clone https://github.com/ahmetugsuz/UDP-server.git`
 
 ### Running/Usage
 
